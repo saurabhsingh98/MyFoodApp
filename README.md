@@ -64,3 +64,34 @@ two main:
       >Single page application: only components getting interchanged via client side routing
        
    >Server Side Routing :  pages coming from server
+
+
+# Redux Toolkit
+   > install @reduxjs/toolkit and react-redux
+   > build our store
+   > connect our store to app
+   > Slice( Cart Slice)
+   > dispatch (action)
+   > Selector
+
+# Difference Between 
+   > onClick= {()=> handleitem(item) }   
+   > onClick= {handleitem(item) }
+   > onClick= {handleitem }
+
+# Developer Testing
+   > Unit Testing : component ki testing
+   > Integration Testing: Pur app ki testing
+   > End to End Testing: e2e (HUm nahi padhenge)   
+
+   # setup
+   > install react testing library
+   > install jest
+   > install babel dependencies
+   > configure babel
+   > configure parcel config file to disable babel transpilation
+   > initiate jest: npx jest --init
+   > install jsdom library
+   > install @babel/present-react  -to make JSX work in test cases
+   > include  @babel/present-react inside babel config
+   > install @testing-library/jest-dom 
